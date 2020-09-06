@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/hoursFragment">
+
+    <fragment
+        android:id="@+id/hoursFragment"
+        android:name="com.studycode.androidgads2020practiceprojects.ui.fragments.HoursFragment"
+        android:label="HoursFragment" />
+    <fragment
+        android:id="@+id/skillIQFragment"
+        android:name="com.studycode.androidgads2020practiceprojects.ui.fragments.SkillIQFragment"
+        android:label="SkillIQFragment" />
+    <fragment
+        android:id="@+id/submitFragment"
+        android:name="com.studycode.androidgads2020practiceprojects.ui.fragments.SubmitFragment"
+        android:label="SubmitFragment" />
+</navigation>
