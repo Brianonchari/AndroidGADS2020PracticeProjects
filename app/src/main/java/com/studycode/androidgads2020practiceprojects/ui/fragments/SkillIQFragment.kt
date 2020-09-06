@@ -41,15 +41,13 @@ class SkillIQFragment :Fragment(R.layout.fragment_skilliq){
             when(it.status){
                 Status.SUCCESS ->{
                     it.data?.let { users -> renderList(users) }
-//                    progressbar.visibility = View.GONE
+
                 }
                 Status.LOADING ->{
-//                    progressbar.visibility = View.VISIBLE
-//                    skill_recyclerview.visibility = View.GONE
+
                 }
                 Status.ERROR ->{
-//                    progressbar.visibility = View.GONE
-//                    Toast.makeText(requireContext(), "Error", Toast.LENGTH_LONG).show()
+
                 }
             }
         })

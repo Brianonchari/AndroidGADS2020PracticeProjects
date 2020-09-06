@@ -39,12 +39,8 @@ class HoursFragment : Fragment(R.layout.fragment_learners) {
 
                 }
                 Status.LOADING -> {
-//                    progress_bar.visibility = View.VISIBLE
-//                    hours_recyclerview.visibility = View.GONE
                 }
                 Status.ERROR -> {
-//                    progress_bar.visibility = View.GONE
-//                    Toast.makeText(requireContext(), it.message, Toast.LENGTH_LONG).show()
                 }
             }
         })

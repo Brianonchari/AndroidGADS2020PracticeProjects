@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
         submitButton.setOnClickListener {
             startActivity(Intent(this, SubmitActivity::class.java))
         }
-
     }
 
 }
