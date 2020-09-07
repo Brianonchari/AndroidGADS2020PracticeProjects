@@ -21,5 +21,5 @@ Android practice project for GADS 2020
  
  ### ScreenShotes
  
- <img src="./imageassets/learningleaders.png" width="auto"/> <img src="./imageassets/iqleaders.png" width="auto"/> 
+ <img src="./imageassets/laerningleaders.png" width="auto"/> <img src="./imageassets/iqleaders.png" width="auto"/> 
  
