@@ -19,7 +19,12 @@ Android practice project for GADS 2020
 ### Api
  baseUrl (https://gadsapi.herokuapp.com)
  
- ### ScreenShotes
+ ### ScreenShots
+ <img src="./imageassets/splash.png" width="300"/>
+ <img src="./imageassets/learningleaders.png" width="200"/> <img src="./imageassets/iqleaders.png" width="200"/> 
  
- <img src="./imageassets/laerningleaders.png" width="200"/> <img src="./imageassets/iqleaders.png" width="200"/> 
+  <img src="./imageassets/submitscreen.png" width="300"/> <img src="./imageassets/confirmdialog.png" width="200"/> 
+  <img src="./imageassets/successdialog.png" width="300"/> <img src="./imageassets/fail_dialog.png" width="200"/> 
+ 
+ 
  
