@@ -1,9 +1,11 @@
 package com.studycode.androidgads2020practiceprojects.di
 
-import com.google.gson.Gson
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import com.studycode.androidgads2020practiceprojects.BuildConfig
-import com.studycode.androidgads2020practiceprojects.data.api.*
+import com.studycode.androidgads2020practiceprojects.data.api.ApiHelper
+import com.studycode.androidgads2020practiceprojects.data.api.ApiHelperImpl
+import com.studycode.androidgads2020practiceprojects.data.api.ApiService
+import com.studycode.androidgads2020practiceprojects.data.api.FormSubmitService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -58,9 +60,6 @@ class AppModule {
     @Singleton
     fun providesApiHelper(apiHelper: ApiHelperImpl): ApiHelper = apiHelper
 
-    //    @Singleton
-////    @Provides
-////    fun providesFormService(retrofit: Retrofit) = retrofit.create(FormService::class.java)
     @Singleton
     @Provides
     fun providesFormService(
