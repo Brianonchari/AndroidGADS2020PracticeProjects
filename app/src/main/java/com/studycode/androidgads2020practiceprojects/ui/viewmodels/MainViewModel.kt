@@ -92,7 +92,9 @@ class MainViewModel @ViewModelInject constructor(
                 }
             }
         }
+    }
 
-
+    fun resetSuccessValue() {
+        _success.value = null
     }
 }
